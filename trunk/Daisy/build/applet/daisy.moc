@@ -1,0 +1,339 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'daisy.h'
+**
+** Created: Fri Mar 2 13:15:29 2012
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../applet/src/daisy.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'daisy.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_daisy[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      65,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+       7,    6,    6,    6, 0x0a,
+      24,    6,    6,    6, 0x0a,
+      49,   41,    6,    6, 0x0a,
+      69,    6,    6,    6, 0x0a,
+     102,   86,    6,    6, 0x0a,
+     144,  136,    6,    6, 0x0a,
+     170,  136,  166,    6, 0x0a,
+     195,    6,    6,    6, 0x0a,
+     207,    6,    6,    6, 0x0a,
+     218,    6,    6,    6, 0x0a,
+     232,    6,    6,    6, 0x0a,
+     253,    6,    6,    6, 0x0a,
+     267,    6,    6,    6, 0x0a,
+     280,    6,    6,    6, 0x0a,
+     292,    6,    6,    6, 0x0a,
+     305,    6,    6,    6, 0x0a,
+     332,  320,    6,    6, 0x0a,
+     355,    6,    6,    6, 0x0a,
+     370,    6,    6,    6, 0x0a,
+     383,    6,    6,    6, 0x0a,
+     403,    6,    6,    6, 0x0a,
+     452,  439,  417,    6, 0x0a,
+     479,    6,    6,    6, 0x0a,
+     491,    6,    6,    6, 0x0a,
+     503,    6,    6,    6, 0x0a,
+     524,  521,    6,    6, 0x0a,
+     538,  521,    6,    6, 0x0a,
+     553,  521,    6,    6, 0x0a,
+     572,  521,    6,    6, 0x0a,
+     587,    6,    6,    6, 0x0a,
+     603,    6,    6,    6, 0x0a,
+     621,    6,    6,    6, 0x0a,
+     636,    6,    6,    6, 0x0a,
+     651,  647,    6,    6, 0x0a,
+     675,    6,    6,    6, 0x0a,
+     713,  695,    6,    6, 0x0a,
+     730,    6,    6,    6, 0x0a,
+     744,    6,    6,    6, 0x0a,
+     756,    6,    6,    6, 0x0a,
+     769,    6,    6,    6, 0x0a,
+     783,    6,    6,    6, 0x09,
+     800,    6,    6,    6, 0x09,
+     817,    6,    6,    6, 0x09,
+     842,    6,    6,    6, 0x09,
+     867,    6,    6,    6, 0x09,
+     890,    6,    6,    6, 0x09,
+     909,    6,    6,    6, 0x09,
+     922,    6,    6,    6, 0x09,
+     945,    6,    6,    6, 0x09,
+     967,  961,    6,    6, 0x09,
+     991,  961,    6,    6, 0x09,
+    1016,    6,    6,    6, 0x09,
+    1034,    6,    6,    6, 0x09,
+    1055,    6,    6,    6, 0x09,
+    1075,    6,    6,    6, 0x09,
+    1094,  961,    6,    6, 0x09,
+    1116,  961,    6,    6, 0x09,
+    1154, 1142,    6,    6, 0x08,
+    1177, 1142,    6,    6, 0x08,
+    1202,  521,    6,    6, 0x08,
+    1219,  521,    6,    6, 0x08,
+    1238,  521,    6,    6, 0x08,
+    1271, 1263,    6,    6, 0x08,
+    1312, 1298,    6,    6, 0x08,
+    1344,    6,    6,    6, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_daisy[] = {
+    "daisy\0\0paintLaunchers()\0configLauncher()\0"
+    "startup\0spaceReserver(bool)\0"
+    "removeLauncher()\0droppos,payload\0"
+    "addLauncher(QPointF,QList<QUrl>&)\0"
+    "droppos\0moveLauncher(QPointF)\0int\0"
+    "findLauncherPos(QPointF)\0toggTrash()\0"
+    "remTrash()\0delayUpdate()\0delayTaskIcoChange()\0"
+    "delayResize()\0checkTrash()\0openTrash()\0"
+    "emptyTrash()\0restoreTrash()\0m_type_temp\0"
+    "metamorphosis(QString)\0swapCircular()\0"
+    "swapLinear()\0toggleLockedState()\0"
+    "removeDaisy()\0QList<QList<double> >\0"
+    "contentsRect\0calcWidgetPositions(QRect)\0"
+    "launClick()\0taskClick()\0launNewInstance()\0"
+    "id\0toggTask(WId)\0focusTask(WId)\0"
+    "toggShadeTask(WId)\0closeTask(WId)\0"
+    "drawerClicked()\0taskMenuClicked()\0"
+    "mouseTracker()\0addDelay()\0obj\0"
+    "hoverLauncher(QObject*)\0mormalizeLauncher()\0"
+    "clickedlaunch_tmp\0clickEffect(int)\0"
+    "resetResize()\0delayExec()\0delayShade()\0"
+    "taskClosing()\0configAccepted()\0"
+    "configRejected()\0configLauncherAccepted()\0"
+    "configLauncherRejected()\0"
+    "toggleActionLauncher()\0toggleMediaCombo()\0"
+    "toggleHide()\0backgroundChanged(int)\0"
+    "szValueChange()\0value\0opacityValueChange(int)\0"
+    "spinBoxSize_Clicked(int)\0destroyLauncher()\0"
+    "toggleEffectsCombo()\0posButton_Clicked()\0"
+    "floating_Clicked()\0drawerSizeChange(int)\0"
+    "drawerRotationChange(int)\0startupItem\0"
+    "startupAdded(Startup*)\0startupRemoved(Startup*)\0"
+    "windowAdded(WId)\0windowRemoved(WId)\0"
+    "activeWindowChanged(WId)\0desktop\0"
+    "currentDesktopChanged(int)\0id,properties\0"
+    "windowChanged(WId,const ulong*)\0"
+    "workAreaChanged()\0"
+};
+
+void daisy::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        daisy *_t = static_cast<daisy *>(_o);
+        switch (_id) {
+        case 0: _t->paintLaunchers(); break;
+        case 1: _t->configLauncher(); break;
+        case 2: _t->spaceReserver((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 3: _t->removeLauncher(); break;
+        case 4: _t->addLauncher((*reinterpret_cast< QPointF(*)>(_a[1])),(*reinterpret_cast< QList<QUrl>(*)>(_a[2]))); break;
+        case 5: _t->moveLauncher((*reinterpret_cast< QPointF(*)>(_a[1]))); break;
+        case 6: { int _r = _t->findLauncherPos((*reinterpret_cast< QPointF(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = _r; }  break;
+        case 7: _t->toggTrash(); break;
+        case 8: _t->remTrash(); break;
+        case 9: _t->delayUpdate(); break;
+        case 10: _t->delayTaskIcoChange(); break;
+        case 11: _t->delayResize(); break;
+        case 12: _t->checkTrash(); break;
+        case 13: _t->openTrash(); break;
+        case 14: _t->emptyTrash(); break;
+        case 15: _t->restoreTrash(); break;
+        case 16: _t->metamorphosis((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 17: _t->swapCircular(); break;
+        case 18: _t->swapLinear(); break;
+        case 19: _t->toggleLockedState(); break;
+        case 20: _t->removeDaisy(); break;
+        case 21: { QList<QList<double> > _r = _t->calcWidgetPositions((*reinterpret_cast< const QRect(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QList<QList<double> >*>(_a[0]) = _r; }  break;
+        case 22: _t->launClick(); break;
+        case 23: _t->taskClick(); break;
+        case 24: _t->launNewInstance(); break;
+        case 25: _t->toggTask((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 26: _t->focusTask((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 27: _t->toggShadeTask((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 28: _t->closeTask((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 29: _t->drawerClicked(); break;
+        case 30: _t->taskMenuClicked(); break;
+        case 31: _t->mouseTracker(); break;
+        case 32: _t->addDelay(); break;
+        case 33: _t->hoverLauncher((*reinterpret_cast< QObject*(*)>(_a[1]))); break;
+        case 34: _t->mormalizeLauncher(); break;
+        case 35: _t->clickEffect((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 36: _t->resetResize(); break;
+        case 37: _t->delayExec(); break;
+        case 38: _t->delayShade(); break;
+        case 39: _t->taskClosing(); break;
+        case 40: _t->configAccepted(); break;
+        case 41: _t->configRejected(); break;
+        case 42: _t->configLauncherAccepted(); break;
+        case 43: _t->configLauncherRejected(); break;
+        case 44: _t->toggleActionLauncher(); break;
+        case 45: _t->toggleMediaCombo(); break;
+        case 46: _t->toggleHide(); break;
+        case 47: _t->backgroundChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 48: _t->szValueChange(); break;
+        case 49: _t->opacityValueChange((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 50: _t->spinBoxSize_Clicked((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 51: _t->destroyLauncher(); break;
+        case 52: _t->toggleEffectsCombo(); break;
+        case 53: _t->posButton_Clicked(); break;
+        case 54: _t->floating_Clicked(); break;
+        case 55: _t->drawerSizeChange((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 56: _t->drawerRotationChange((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 57: _t->startupAdded((*reinterpret_cast< Startup*(*)>(_a[1]))); break;
+        case 58: _t->startupRemoved((*reinterpret_cast< Startup*(*)>(_a[1]))); break;
+        case 59: _t->windowAdded((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 60: _t->windowRemoved((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 61: _t->activeWindowChanged((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 62: _t->currentDesktopChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 63: _t->windowChanged((*reinterpret_cast< WId(*)>(_a[1])),(*reinterpret_cast< const ulong*(*)>(_a[2]))); break;
+        case 64: _t->workAreaChanged(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData daisy::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject daisy::staticMetaObject = {
+    { &Plasma::Containment::staticMetaObject, qt_meta_stringdata_daisy,
+      qt_meta_data_daisy, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &daisy::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *daisy::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *daisy::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_daisy))
+        return static_cast<void*>(const_cast< daisy*>(this));
+    typedef Plasma::Containment QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int daisy::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef Plasma::Containment QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 65)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 65;
+    }
+    return _id;
+}
+static const uint qt_meta_data_MyIcon[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+       8,    7,    7,    7, 0x08,
+      21,    7,    7,    7, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_MyIcon[] = {
+    "MyIcon\0\0launchProg()\0launchIcoProg()\0"
+};
+
+void MyIcon::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        MyIcon *_t = static_cast<MyIcon *>(_o);
+        switch (_id) {
+        case 0: _t->launchProg(); break;
+        case 1: _t->launchIcoProg(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData MyIcon::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject MyIcon::staticMetaObject = {
+    { &Plasma::IconWidget::staticMetaObject, qt_meta_stringdata_MyIcon,
+      qt_meta_data_MyIcon, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &MyIcon::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *MyIcon::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *MyIcon::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_MyIcon))
+        return static_cast<void*>(const_cast< MyIcon*>(this));
+    typedef Plasma::IconWidget QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int MyIcon::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef Plasma::IconWidget QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

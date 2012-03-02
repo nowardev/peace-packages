@@ -1,0 +1,19 @@
+To install this plasmoid check if you have installed the needed header files (kdelibs-dev and kdebase-workspace-dev), 
+unpack the archive, go to its directory and execute the install.sh script from a shell.
+
+Alternatively you can go to the /applet directory and run the following commands from a shell:
+
+mkdir build
+cd build
+cmake ../ -DCMAKE_INSTALL_PREFIX=`kde4-config --prefix`
+make
+sudo make install
+kbuildsycoca4
+
+After that done, the plasmoid should show up in the add widgets dialog.
+If not, from a shell you can try to execute:
+
+kquitapp plasma-desktop
+plasma-desktop
+
+

@@ -1,0 +1,39 @@
+Daisy README file.
+
+
+
+Plasma applet to launch applications and show various informations on desktop.
+
+Requirements:
+KDE4 >= 4.2
+KDE/Plasma development headers (on Ubuntu/Debian these packages are named "kdebase-workspace-dev", "kdelibs5-dev" )
+GCC
+cmake
+____________________________________________________
+
+- How to install?
+Please see INSTALL file for details.
+
+- Found a bug, what can I do?
+Please report it to: Alessandros1pt@yahoo.com.br
+
+- How to contribute?
+  There are numerous ways to contribute to the Daisy project. These can include:
+  - translating Daisy to your language;
+  - packaging Daisy for your distribution;
+  - reporting bugs;
+  - coding contributions;
+  - making small monetary donations;
+
+
+
+
+
+
+CONTACT:
+Lechio
+Alessandros1pt@yahoo.com.br
+
+
+
+

@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+1f55bdfbc2ef3488775127586d8c1efb CMakeFiles/uninstall
+f82582700386fca25394dfe23f86de5f applet/CMakeFiles/plasma_applet_daisy_automoc
+e56fdbc6c1a34125bd9241542221104c applet/po/CMakeFiles/pofiles
+b784430ff7eed433bec2ff0155478f98 applet/po/bs.gmo
+34a6dbdc158cd0307b4d2f316e8bf949 applet/po/de.gmo
+e0f5a35cec4a03007f3943fe4bacbfaa applet/po/el.gmo
+23182319feea71d354b3be15ef31d6bc applet/po/fr.gmo
+e110e7a94b4639bbddf70e903f0626f0 applet/po/hu.gmo
+f59fb0568259f08630b3c89eb5a3cb16 applet/po/it.gmo
+1d2aed74908bd13581382124858d2f4f applet/po/pl.gmo
+6619f824c8ed774e808f7c66c12d2d21 applet/po/pt.gmo
+2adaac2b2f1c49425e57b2ff03dc25d9 applet/po/ru.gmo
+fdc1ba95c2d5e1695601974d6b47cc74 applet/po/sr.gmo
+225c7632bc5faed80e64fa98ad2eff1b applet/po/tr.gmo
+18d5ff92a9d114ad4aa4d72b5819398a applet/ui_advancedConfiguration.h
+e7db23683eebed8d7c26dd8a01468c76 applet/ui_appearanceConfiguration.h
+20db83eab920494aab2462c8a7028053 applet/ui_arrangementConfiguration.h
+66b1fcba04c15b2a604202ec8c54c11f applet/ui_hidingConfiguration.h
+65f41151cae819cfe3c917ad27d4c3c8 applet/ui_launcherConfiguration.h
+c59707bd2e5f2725e4836090a7d96548 applet/ui_mainConfiguration.h

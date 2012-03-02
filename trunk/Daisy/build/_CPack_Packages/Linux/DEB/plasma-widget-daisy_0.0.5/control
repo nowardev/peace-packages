@@ -1,0 +1,10 @@
+Package: plasma-widget-daisy
+Version: 0.0.5
+Section: kde
+Priority: optional
+Architecture: i386
+Depends:  libplasma3 , plasma-desktop 
+Installed-Size: 1799
+Maintainer: Sandro Garcia
+Description: Daisy is a simple application launcher for Plasma.
+
