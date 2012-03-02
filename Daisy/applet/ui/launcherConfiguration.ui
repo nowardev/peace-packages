@@ -1,0 +1,190 @@
+<ui version="4.0" >
+ <class>launcherConfiguration</class>
+ <widget class="QWidget" name="launcherConfiguration" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>415</width>
+    <height>401</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Edit launcher</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2" >
+   <item row="0" column="0" >
+    <layout class="QHBoxLayout" name="horizontalLayout_6" >
+     <item>
+      <widget class="KIconButton" name="pushButton_ico" >
+       <property name="minimumSize" >
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="cursor" >
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip" >
+        <string>Click to set icon</string>
+       </property>
+       <property name="flat" >
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout" >
+       <item>
+        <widget class="QLabel" name="label_name" >
+         <property name="text" >
+          <string>Name:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_name" />
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0" >
+    <layout class="QVBoxLayout" name="verticalLayout_3" >
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3" >
+       <item>
+        <widget class="QLabel" name="label_3" >
+         <property name="text" >
+          <string>Alias:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_alias" >
+         <property name="toolTip" >
+          <string>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Example:&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">Command&lt;/span>: &lt;span style=" font-style:italic;">kfmclient openURL&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600;">Alias&lt;/span>: &lt;span style=" font-style:italic;">konqueror&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2" >
+       <item>
+        <widget class="QLabel" name="label_command" >
+         <property name="text" >
+          <string>Command:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_command" />
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0" >
+    <layout class="QVBoxLayout" name="verticalLayout_2" >
+     <item>
+      <layout class="QGridLayout" name="gridLayout" >
+       <item row="0" column="2" >
+        <widget class="KIconButton" name="pushButton_action_ico" >
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize" >
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="toolTip" >
+          <string>Click to set action icon</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1" >
+        <layout class="QVBoxLayout" name="verticalLayout" >
+         <item>
+          <widget class="Line" name="line" >
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_action_launcher" >
+           <property name="text" >
+            <string>Enable action launcher</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5" >
+           <item>
+            <widget class="QLabel" name="label_2" >
+             <property name="text" >
+              <string>Name:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_action_name" />
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4" >
+           <item>
+            <widget class="QLabel" name="label" >
+             <property name="text" >
+              <string>Command:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_action_command" />
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="Line" name="line_2" >
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KIconButton</class>
+   <extends>QPushButton</extends>
+   <header>kicondialog.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>lineEdit_name</tabstop>
+  <tabstop>pushButton_ico</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

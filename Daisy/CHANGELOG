@@ -1,0 +1,157 @@
+
+Alpha corolla 0.0.4:
+  0.0.4.25 (11.Nov.2010)
+- Added support for VLC in "Media controller" role.
+
+
+  0.0.4.24 (10.Nov.2010)
+- Fixed bug that could cause the applet to crash in certain circumstances (patched by pierre.parent@insa-rouen.fr);
+- Dolphin is now used as default application for the file manager launcher;
+- Updated Italian translation.
+
+
+  0.0.4.23 (29.Jun.2010)
+- Moved project page to dedicated host;
+- Removed some backgrounds;
+- Added Greek language translation done by Alexander Kaltsas;
+- Added Turkish language translation done by Anıl Özbek;
+- Added Russian language translation done by Dmitry Pisklov;
+- Fixed issue with TaskManager lib that would affect compilation (thanks bram85);
+- Multiple bugfixes.
+
+
+  0.0.4.22 (11.Fev.2010)
+- Small bugfix to work properly with KDE 4.4
+
+  0.0.4.21 (26.Oct.2009)
+- Updated translations;
+- Fixed issue in task manager plugin not updating data for tasks;
+- Added new mach-2 background;
+- Added option to scroll tasks in "Linear dock" role;
+- Added option to show close button when hovering over a task representation;
+- Added option to configure middle-click behavior for launchers;
+- Icons can now be of a minimum size of 24 pixels or of a maximum size of 256 pixels;
+- Minimum icon spacing can now be zero or less;
+- Multiple bugfixes.
+
+  0.0.4.20 (21.Sep.2009)
+- Fixed some issues in Trash plugin;
+- Drawers now popup over other widgets.
+- Fixed some painting/resizing issues with KDE 4.3;
+- Added options to display tooltips for inactive launchers;
+- Added window previews for multiple application instances (KDE >= 4.3 only);
+- Added Bosnian and Serbian language translations done by Simo Djuric;
+- Added German language translation done by Jochen Weis;
+- Added complete taskbar plugin for running tasks;
+- Multiple bugfixes.
+
+  0.0.4.19 (06.Jul.2009)
+- Fixed bug in applet definition, that would set applet as desktop background in some systems;
+- Fixed encoding issues in some translations (thanks Serge).
+
+  0.0.4.18 (04.Jul.2009)
+- Fixed bug that would allow using Daisy as desktop background, making it hard to remove later;
+- Added French language translation done by Sergio Guibert;
+- Updated Hungarian language translation.
+
+  0.0.4.17 (26.Jun.2009)
+- Fixed bug that would reset applet's screen position to its default value.
+- Added Hungarian language translation done by Ferenc Nagy.
+
+  0.0.4.16 (25.Jun.2009)
+- Workaround for bug that would make applet resize incorrectly (in current KDE 4.3-cvs);
+- Added Italian language translation done by Mte90.
+
+  0.0.4.15 (16.Jun.2009)
+- Re-designed mach background;
+- Added new backgrounds;
+- Added new mouseover effects;
+- Added option to configure drawers size and rotation factor;
+- Multiple bugfixes.
+
+  0.0.4.14 (02.Jun.2009)
+- Added option of having thumbnail previews of currently running applications displayed on launchers' tooltips (available only when composite is enabled);
+- Widget can now remember previous screen position when switching from "Linear dock" role to "Circular dock" role;
+- Workaround for applications reporting wrong class names, Konsole can now be detected when composite is enabled.
+
+  0.0.4.13 (30.May.2009)
+- Started implementation of on-click effects;
+- Fixed mach background not displaying correctly when on the top corners of the screen;
+- Fixed icon effects bug of "Media controller" role.
+
+  0.0.4.12 (29.May.2009)
+- Cosmetic changes on application activity indicators;
+- Added new background based on Sabre Tiger theme done by Eldarion;
+- Added Polish language translation done by Marek Walczak.
+
+  0.0.4.11 (27.May.2009)
+- Added option to use panel backgrounds.
+
+  0.0.4.10 (26.May.2009)
+- Started implementation of mouseover effects.
+
+  0.0.4.9 (23.May.2009)
+- Fixed some bugs in drag and drop;
+- Shrinked icon size in tooltips;
+- Separated different graphical components to allow easy theming of Daisy.
+
+  0.0.4.8 (22.May.2009)
+- Fixed drag sensitivity in launchers:
+- Fixed other minor bugs.
+
+  0.0.4.7 (21.May.2009)
+- Added support for drag and drop of objects.
+
+  0.0.4.6 (19.May.2009)
+- Added mirror effects;
+- Added option to configure icon spacing;
+- Added option to have dock act as a real panel (reserving screen space), when in "Linear dock" role;
+- Added option for auto-hiding of dock, when in "Linear dock" role.
+
+  0.0.4.5 (16.May.2009)
+- Corrected bug that would not allow saving the tooltips display state of tasks.
+
+  0.0.4.4 (15.May.2009)
+- Corrected bug that could lead to a crash when removing the trash plugin, if having tooltips on tasks enabled;
+- Added option of switching to "Linear dock" role directly from menu.
+
+  0.0.4.3 (14.May.2009)
+- Corrected bug that could lead to a crash when enabling the floating mode;
+- Corrected bug that could lead to a crash when removing the trash plugin;
+- Corrected bug that would not allow changing the background on "Linear dock" role;
+- Added tooltips to tasks.
+
+  0.0.4.2 (13.May.2009)
+- Fixed launchers loosing configuration after changing to "Media controller" role;
+- Fixed control buttons for amarok 2.x .
+
+  0.0.4.1 (12.May.2009)
+- Fixed all known bugs: background and activity indicators not painting correctly, ghost icons displaying on role change;
+- Added option to remove a launcher/plugin on right-click;
+- Added option to move widget to any place on the screen when on "Linear dock" role.
+
+  0.0.4 (07.May.2009)
+- Added drawer-like menus for tasks.
+
+
+
+Alpha floret 0.0.3 (05.May.2009):
+- Added option to configure background opacity;
+- Hopefully fixed background not painting correctly on some systems issue;
+- Added option to configure arrangement for "Linear dock" role.
+
+
+
+Alpha petal 0.0.2 (30.Apr.2009):
+- Added configuration tools;
+- Launchers can now be edited with a right-click;
+- Implemented "Media controller" role;
+- Improved trash plugin;
+- Started implementation of "Linear dock" role;
+- Started implementation of tasks.
+
+
+
+pre-Alpha 0.0.1 (02.Apr.2009):
+- Initial version.
+

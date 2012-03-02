@@ -1,0 +1,4 @@
+/home/shared/Daisy/build/applet/CMakeFiles/plasma_applet_daisy.dir
+/home/shared/Daisy/build/applet/CMakeFiles/plasma_applet_daisy_automoc.dir
+/home/shared/Daisy/build/applet/po/CMakeFiles/pofiles.dir
+/home/shared/Daisy/build/CMakeFiles/uninstall.dir
